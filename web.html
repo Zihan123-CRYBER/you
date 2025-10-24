@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DIVAA💖</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background-color: #fff0f6;
+      color: #333;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      color: #ff4d6d;
+      font-size: 2.5em;
+      animation: float 2s ease-in-out infinite;
+    }
+    p {
+      font-size: 1.2em;
+      margin: 20px 0;
+    }
+    button {
+      background-color: #ff4d6d;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 25px;
+      font-size: 1.1em;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover {
+      background-color: #ff85a1;
+    }
+    #message {
+      margin-top: 30px;
+      font-size: 1.3em;
+      color: #ff4d6d;
+      font-weight: bold;
+      display: none;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <h1>Hai 😚</h1>
+  <p>Aku cuma mau bilang satu hal penting banget...</p>
+  <button onclick="showMessage()">Klik di sini 💌</button>
+  <p id="message">You are always beautiful in my eyes, even your beauty beats the perfect song❤️</p>
+
+  <script>
+    function showMessage() {
+      document.getElementById('message').style.display = 'block';
+    }
+  </script>
+</body>
+</html>
